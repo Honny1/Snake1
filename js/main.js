@@ -95,11 +95,24 @@ function alert() {
         close();
     }
     else {
-        txt = person+" score: "+aa;
+        txt = person+" score: "+aa ;
     }
     zz = 0;
     aa = 0;
     nwm = "";
     document.getElementById("nwm").innerHTML = nwm;
-    document.getElementById("demo").innerHTML = txt;
+
+    autizm(txt);
+}
+var person = [];
+function autizm(txt) {
+    person.push(txt);
+    pLen = person.length;
+    document.getElementById("demo").innerHTML = person;
+    text11 = "<ul>";
+    for (i = 0; i < pLen; i++) {
+        text11 += "<li>" + person[i] + "</li>";
+    }
+    text11 += "</ul>";
+    document.getElementById("demo").innerHTML = text11;
 }

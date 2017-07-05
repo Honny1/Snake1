@@ -275,8 +275,15 @@ p{
     color:#0000FF;
     font-family:fantasy;
     font-size:30px;
+
 }
 Alert {
     height:300px;
     width:300px;
+}
+ul{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    margin-left: 43%;
 }
