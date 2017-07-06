@@ -109,10 +109,10 @@ function autizm(txt) {
     person.push(txt);
     pLen = person.length;
     document.getElementById("demo").innerHTML = person;
-    text11 = "<ul>";
+    text11 = "<ol>";
     for (i = 0; i < pLen; i++) {
         text11 += "<li>" + person[i] + "</li>";
     }
-    text11 += "</ul>";
+    text11 += "</ol>";
     document.getElementById("demo").innerHTML = text11;
 }
