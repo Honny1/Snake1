@@ -95,7 +95,27 @@ function alert() {
         close();
     }
     else {
-        txt = person+" score: "+aa ;
+        var n = aa.toString();
+        var x = n.length;
+        switch (x){
+            case 1:
+                nul="000";
+                var num=nul.concat(n);
+                break;
+            case 2:
+                nul="00";
+                var num=nul.concat(n);
+                break;
+
+            case 3:
+                nul="0";
+                var num=nul.concat(n);
+                break;
+            case 4:
+                var num=n;
+                break;
+        }
+        txt = person+" score: "+num ;
     }
     zz = 0;
     aa = 0;
@@ -107,6 +127,7 @@ function alert() {
 var person = [];
 function autizm(txt) {
     person.push(txt);
+
     pLen = person.length;
     document.getElementById("demo").innerHTML = person;
     text11 = "<ol>";
@@ -115,4 +136,33 @@ function autizm(txt) {
     }
     text11 += "</ol>";
     document.getElementById("demo").innerHTML = text11;
+    honnysSort(person);
+}
+function honnysSort(person) {
+    var swapped;
+    do {
+        swapped = false;
+        for (var i=0; i < person.length-1; i++) {
+
+            kk=person[i];
+            var last4 = kk.slice(-4);
+            var god = parseInt(last4);
+
+
+
+
+            kk1=person[i+1];
+            var last41 = kk1.slice(-4);
+            var god1 = parseInt(last41);
+
+
+
+            if (god > god1) {
+                var temp = person[i];
+                person[i] = person[i+1];
+                person[i+1] = temp;
+                swapped = true;
+            }
+        }
+    } while (swapped);
 }
