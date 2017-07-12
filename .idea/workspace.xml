@@ -24,8 +24,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="772">
-              <caret line="166" column="22" lean-forward="false" selection-start-line="166" selection-start-column="22" selection-end-line="166" selection-end-column="22" />
+            <state relative-caret-position="727">
+              <caret line="168" column="21" lean-forward="false" selection-start-line="168" selection-start-column="21" selection-end-line="168" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -258,12 +258,13 @@
       <workItem from="1499266570658" duration="6867000" />
       <workItem from="1499334782883" duration="370000" />
       <workItem from="1499384190890" duration="136000" />
-      <workItem from="1499710826007" duration="6283000" />
+      <workItem from="1499710826007" duration="6333000" />
+      <workItem from="1499875211402" duration="994000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17728000" />
+    <option name="totallyTimeSpent" value="18772000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -284,7 +285,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10289389" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10289389" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14053077" sideWeight="0.5066007" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39871383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -327,11 +328,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4828">
           <caret line="284" column="3" lean-forward="false" selection-start-line="284" selection-start-column="3" selection-end-line="284" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -357,7 +375,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4828">
           <caret line="284" column="3" lean-forward="false" selection-start-line="284" selection-start-column="3" selection-end-line="284" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -383,7 +400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4828">
           <caret line="284" column="3" lean-forward="false" selection-start-line="284" selection-start-column="3" selection-end-line="284" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -583,7 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="284" column="3" lean-forward="false" selection-start-line="284" selection-start-column="3" selection-end-line="284" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -599,8 +614,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="772">
-          <caret line="166" column="22" lean-forward="false" selection-start-line="166" selection-start-column="22" selection-end-line="166" selection-end-column="22" />
+        <state relative-caret-position="727">
+          <caret line="168" column="21" lean-forward="false" selection-start-line="168" selection-start-column="21" selection-end-line="168" selection-end-column="21" />
           <folding />
         </state>
       </provider>

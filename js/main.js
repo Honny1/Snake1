@@ -127,9 +127,10 @@ function alert() {
 var person = [];
 function autizm(txt) {
     person.push(txt);
-
+    honnysSort(person);
     pLen = person.length;
     document.getElementById("demo").innerHTML = person;
+    honnysSort(person);
     text11 = "<ol>";
     for (i = 0; i < pLen; i++) {
         text11 += "<li>" + person[i] + "</li>";
@@ -148,14 +149,9 @@ function honnysSort(person) {
             var last4 = kk.slice(-4);
             var god = parseInt(last4);
 
-
-
-
             kk1=person[i+1];
             var last41 = kk1.slice(-4);
             var god1 = parseInt(last41);
-
-
 
             if (god > god1) {
                 var temp = person[i];
@@ -165,4 +161,5 @@ function honnysSort(person) {
             }
         }
     } while (swapped);
+    person.reverse();
 }
