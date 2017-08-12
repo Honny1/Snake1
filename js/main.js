@@ -128,11 +128,10 @@ var person = [];
 function autizm(txt) {
     person.push(txt);
     honnysSort(person);
-    pLen = person.length;
     document.getElementById("demo").innerHTML = person;
     honnysSort(person);
     text11 = "<ol>";
-    for (i = 0; i < pLen; i++) {
+    for (i = 0; i < person.length; i++) {
         text11 += "<li>" + person[i] + "</li>";
     }
     text11 += "</ol>";
@@ -144,16 +143,7 @@ function honnysSort(person) {
     do {
         swapped = false;
         for (var i=0; i < person.length-1; i++) {
-
-            kk=person[i];
-            var last4 = kk.slice(-4);
-            var god = parseInt(last4);
-
-            kk1=person[i+1];
-            var last41 = kk1.slice(-4);
-            var god1 = parseInt(last41);
-
-            if (god > god1) {
+            if (parseInt(person[i].slice(-4)) > parseInt(person[i+1].slice(-4))) {
                 var temp = person[i];
                 person[i] = person[i+1];
                 person[i+1] = temp;
